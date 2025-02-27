@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #d2cde1;   
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.cards-section {
+    margin: 0% 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card1 {
+    border: 2px solid black;
+    width: 165px;
+    height: 200px;
+    padding: 90px 80px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    transition: all .3s ease;
+    
+}
+
+.card2 {
+    border: 2px solid black;
+    width: 165px;
+    height: 200px;
+    padding: 90px 80px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.card3 {
+    border: 2px solid black;
+    width: 165px;
+    height: 200px;
+    padding: 90px 80px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.img-card {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 110px;
+    border-radius: 4px;
+}
+
+.titulo {
+    position: relative;
+    top: 35px;
+    font-size: 25px
+}
+
+.leia-mais {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+p {
+    position: relative;
+    bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.card1:hover p {
+    color: white;
+}
+.card1:hover {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+.card1:hover a{
+    background-color: white;
+    color: #1DA1F2;
+}
+.card1:hover h3{
+    color: white;
+}
+
+.card2:hover p{
+    color: white;
+}
+
+.card2:hover {
+    background-color: #E1306C;
+    border-color: #E1306C;
+}
+.card2:hover a{
+    background-color: white;
+    color: #E1306C;
+}
+.card2:hover h3{
+    color: white;
+}
+.card3:hover p{
+    color: white;
+}
+.card3:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.card3:hover a{
+    background-color: white;
+    color: #ff0000;
+}
+.card3:hover h3{
+    color: white;
+}
